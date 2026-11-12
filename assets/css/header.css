@@ -15,7 +15,7 @@
     height: 2rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/assets/img/icons/reti.svg);
+    background-image: url(../img/icons/reti.svg);
 }
 
 .header .photo {
@@ -54,10 +54,10 @@
     background-size: contain;
 }
 
-.informations p:nth-child(1)::before { background-image: url(/assets/img/icons/person.svg); }
-.informations p:nth-child(2)::before { background-image: url(/assets/img/icons/geo.svg); }
-.informations p:nth-child(3)::before { background-image: url(/assets/img/icons/whatsapp.svg); }
-.informations p:nth-child(4)::before { background-image: url(/assets/img/icons/envelope.svg); }
+.informations p:nth-child(1)::before { background-image: url(../img/icons/person.svg); }
+.informations p:nth-child(2)::before { background-image: url(../img/icons/geo.svg); }
+.informations p:nth-child(3)::before { background-image: url(../img/icons/whatsapp.svg); }
+.informations p:nth-child(4)::before { background-image: url(../img/icons/envelope.svg); }
 
 .informations a {
     color: #fff;
