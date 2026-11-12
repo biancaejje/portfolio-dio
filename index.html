@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Bianca Ejje</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languages.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/experience.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <img src="assets/img/bianca.jpg"" alt="foto da bianca ejje" class="photo">
+
+            <h1 class="title">
+                Olá, <br>eu sou Bianca Ejje</h1>
+            
+            <div class="informations">
+                <p class="job">
+                    Desenvolvedora Front-end
+                </p>
+                <p class="location">
+                    Rio de Janeiro - BR
+                </p>
+                <p class="phone">
+                    <a href="tel:+5521995447172">(21) 99544-7172</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:biancacarvalhoejje@gmail.com">biancacarvalhoejje@gmail.com</a>
+                </p>
+            </div>
+        </header>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                <h2>Skills</h2>
+            </button>
+
+            <div class="content">
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidades Profissionais:</h3>
+                        <ul>
+                            <li>
+                                <img src="/assets/img/icons/react.svg" alt="react" title="react">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/js.svg" alt="JavaScript" title="JavaScript">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/ts.svg" alt="TypeScript" title="TypeScript">
+                            </li>
+                            <li>
+                                <img src="/assets/img/icons/nodejs.svg" alt="NodeJs" title="NodeJs">
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="personal">
+                        <h3>Habilidades Pessoais:</h3>
+                        <ul>
+                            <li>Liderança</li>
+                            <li>Organização</li>
+                            <li>Facilidade com tarefas práticas</li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Comprometimento com resultados</li>
+                            <li>Comunicação</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                    <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages">
+                    <li>Portugues</li>
+                    <li>Ingles</li>
+                    <li>Espanhol</li>
+                </ul>
+
+            </div>
+        </section>
+
+       <section>
+            <section class="acordeon">
+                <button class="trigger" type="button">
+                    <h2>Portfólio</h2>
+                </button>
+
+                <div class="content">
+                    <ul class="projects" id="projects">
+                        <li>Carregando projetos...</li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+
+        <section class="acordeon">
+            <button class="trigger" type="button">
+                    <h2>Experiencia Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                       <h3 class="title">Software Engineer</h3>
+                       <p class="period">Jan 2026 - Current</p>
+                       <p>Atuo como desenvolvedora front-end, sendo responsável por toda a camada visual do sistema da Leme Educação. Desenvolvo e mantenho as interfaces com foco em usabilidade, consistência visual e boa experiência para professores e gestores, transformando [layouts/protótipos] em telas funcionais, responsivas e acessíveis. Trabalho em conjunto com [design, produto e back-end] para entregar novas funcionalidades e evoluir a plataforma continuamente.</p>
+                    </li>
+                    <li>
+                       <h3 class="title">Designer Gráfico</h3>
+                       <p class="period">Jan 2022 - Mai 2023</p>
+                       <p>Criação de identidades visuais, materiais gráficos, apresentações e artes digitais para redes sociais, além de materiais de apoio para profissionais, como ebooks, apresentações institucionais, materiais explicativos, banners, pôsteres e demais peças gráficas.</p>
+                    </li>
+                    <li>
+                       <h3 class="title">Analista de Suporte</h3>
+                       <p class="period">Jan 2013 - Jun 2015</p>
+                       <p>Analista de suporte técnico nos sistemas Alterdata Pack (Pack fiscal, Pack Contábil, Nfstock, Ciap, PHD, Guias, Protocolo, integração fiscal x contábil, Pack CRM, Pack Tarefas).</p>
+                    </li>
+                    <li>
+                       <h3 class="title">Professora de Informática</h3>
+                       <p class="period">Jan 2012 - Out 2012</p>
+                       <p>Instrutora de informática básica e avançada: Básico: Sistema windows, sistema linux, navegadores/internet, word, excel e power point. Avançado: Html, Corel Draw, Photoshop cs5, Dreamweaver cs4, Flash player e Visual Basic.</p>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+
+        </section>
+    </main>
+    <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/projects.js"></script>
+</body>
+</html>
